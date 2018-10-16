@@ -9,10 +9,9 @@ function nowServing(line){
   return "There is nobody waiting to be served!";
   }
   else{
-    var tempLine = new Array();
-    tempLine.push(line[0]);
+    var name = line[0]
     line.shift();
-    return "Currently serving " +tempLine[0] + ".";
+    return "Currently serving " +  + ".";
   }
 }
 
