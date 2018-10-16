@@ -5,7 +5,8 @@ function takeANumber(line){
   line.push(i);
   return 'You are number ' +  i++ + '.';
 }
-// []
+// [.... 2,3,4,5,6,7]
+// [61, 62, 63]
 function nowServing(line){
   if (line.length === 0){
   return "There is nobody waiting to be served!";
