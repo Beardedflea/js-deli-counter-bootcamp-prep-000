@@ -1,9 +1,9 @@
 
-function takeANumber(line, name){
-  line.push(name);
-  return 'Welcome, '+ name +'. You are number ' + line.length + ' in line.';
+function takeANumber(line){
+  line.push();
+  return 'You are number ' +  + '.';
 }
-
+// [56, 57, 58, 59, 60]
 function nowServing(line){
   if (line.length === 0){
   return "There is nobody waiting to be served!";
