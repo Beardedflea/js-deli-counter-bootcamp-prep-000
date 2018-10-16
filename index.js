@@ -3,9 +3,7 @@ let i = 1;
 
 function takeANumber(line){
   line.push(i);
-  let temp = i
-  i++
-  return 'You are number ' +  temp + '.';
+  return 'You are number ' +  i++ + '.';
 }
 // []
 function nowServing(line){
